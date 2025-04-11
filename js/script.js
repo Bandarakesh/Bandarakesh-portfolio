@@ -22,3 +22,20 @@ toggle.addEventListener('change', function () {
   }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    var typed = new Typed("#typing", {
+      strings: [
+        "Hi, I'm Rakesh",
+        "Backend Developer",
+        "AI Enthusiast",
+        "Cloud Lover",
+      ],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true,
+      backDelay: 1500,
+      startDelay: 300
+    });
+  });
+  
+
